@@ -11,7 +11,6 @@ for (var i=0; i<names.length; i++) {
   if (firstLetter.toLowerCase() == 'j') {
     byeSpeaker.speak(names[i]);
   } else {
-    // helloSpeaker.xxxx
     helloSpeaker.speak(names[i]);
   }
 }
